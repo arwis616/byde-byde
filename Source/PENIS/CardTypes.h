@@ -73,4 +73,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Card Game C++")
 	static TArray<FCardData> CreateStarterDeck(int32 Count, UTexture2D* DefaultIcon);
+
+	// Проверка маны
+	UFUNCTION(BlueprintCallable, Category = "Card Game C++") 
+	static bool CanPlayCard(int32 CurrentMana, int32 CardCost);
 };
