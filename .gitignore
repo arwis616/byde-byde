@@ -1,0 +1,18 @@
+# Visual Studio files
+.vs
+*.sln
+*.suo
+*.opensdf
+*.sdf
+
+# Unreal Engine files
+Binaries/*
+Intermediate/*
+Saved/*
+DerivedDataCache/*
+Build/*
+
+# Builds
+*.unitypackage
+*.apk
+*.aab
